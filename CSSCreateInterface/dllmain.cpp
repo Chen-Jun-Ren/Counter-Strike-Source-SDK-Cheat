@@ -1,4 +1,6 @@
 ﻿// dllmain.cpp : 定義 DLL 應用程式的進入點。
+
+//2020/06/21 TESTING
 #include "include.h"
 #include "CreateInterface.h"
 #include "NetVarManagement.h"
