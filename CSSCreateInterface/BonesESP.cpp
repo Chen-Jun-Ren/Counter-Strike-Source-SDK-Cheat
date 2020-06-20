@@ -50,6 +50,7 @@ void doBonesESP(IDirect3DDevice9* pDevice)
 				//		Tools::DrawString(Bone2D_Pos_A.x, Bone2D_Pos_A.y, 255, 255, 255, "%d", i);
 				//	}
 				//}
+
 				for (int i = 0; i <= (IM_ARRAYSIZE(Bone_ID_A) - 1); i++)//sizeof(Bone_ID_A) = 72
 				{
 					if (BaseEntity->GetTeamNumber() == LocalPlayer->GetTeamNumber() && Controller::BonesESP_check_Team)//------Team------//
