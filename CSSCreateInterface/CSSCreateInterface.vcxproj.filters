@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="來源檔案">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="標頭檔\SDK">
+      <UniqueIdentifier>{38412276-5cf5-4283-ba20-ed86342075e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\Hook">
+      <UniqueIdentifier>{281d32b2-4d59-4d11-9079-0f95d14e0c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\ImGui">
+      <UniqueIdentifier>{465d5cd2-aeaa-419f-9faa-f3699441c354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\Hack">
+      <UniqueIdentifier>{336c6ca1-727a-4f44-8301-0ef71767fc22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\Hack\ESP">
+      <UniqueIdentifier>{0c395f8f-699f-483a-a00b-0191dc11c627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\Hack\AIMBOT">
+      <UniqueIdentifier>{e00c40ce-cc80-43d0-9ebe-36b57babbb59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\Hack">
+      <UniqueIdentifier>{80724d76-e638-4f41-a6b3-6075411a1b9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\Hack\ESP">
+      <UniqueIdentifier>{e3abe815-e2a9-4e7f-ba1e-243f9a8e1571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\Hack\AIMBOT">
+      <UniqueIdentifier>{6594390a-bbf5-4630-95bb-15ec18e82d98}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateInterface.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVarManagement.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseEntity.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="SetupHack.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScene.cpp">
+      <Filter>來源檔案\Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="BonesESP.cpp">
+      <Filter>來源檔案\Hack\ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>來源檔案\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>來源檔案\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>來源檔案\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp">
+      <Filter>來源檔案\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>來源檔案\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>來源檔案\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="SetCursorPos.cpp">
+      <Filter>來源檔案\Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetLine.cpp">
+      <Filter>來源檔案\Hack\ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassIdManager.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="EspBox.cpp">
+      <Filter>來源檔案\Hack\ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="EspInformation.cpp">
+      <Filter>來源檔案\Hack\ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="AimBot.cpp">
+      <Filter>來源檔案\Hack\AIMBOT</Filter>
+    </ClCompile>
+    <ClCompile Include="PaintTraverse.cpp">
+      <Filter>來源檔案\Hook</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VMTHook.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseEntity.h">
+      <Filter>標頭檔\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="cdll_int.h">
+      <Filter>標頭檔\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="dt_recv.h">
+      <Filter>標頭檔\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>標頭檔\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientEntityList.h">
+      <Filter>標頭檔\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="iclientnetworkable.h">
+      <Filter>標頭檔\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientRenderable.h">
+      <Filter>標頭檔\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientThinkable.h">
+      <Filter>標頭檔\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientUnknown.h">
+      <Filter>標頭檔\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IHandleEntity.h">
+      <Filter>標頭檔\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ivmodelrender.h">
+      <Filter>標頭檔\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3x4_t.h">
+      <Filter>標頭檔\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>標頭檔\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="SetupHack.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="BonesESP.h">
+      <Filter>標頭檔\Hack\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>來源檔案\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>來源檔案\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx9.h">
+      <Filter>來源檔案\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>來源檔案\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>來源檔案\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>來源檔案\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>來源檔案\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>來源檔案\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="inlineHook.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetLine.h">
+      <Filter>標頭檔\Hack\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVarManagement.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassIdManager.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="client_server_class.h">
+      <Filter>標頭檔\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateInterface.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="EspBox.h">
+      <Filter>標頭檔\Hack\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="Espinformation.h">
+      <Filter>標頭檔\Hack\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="AimBot.h">
+      <Filter>標頭檔\Hack\AIMBOT</Filter>
+    </ClInclude>
+    <ClInclude Include="IPanel.h">
+      <Filter>標頭檔\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="top.h">
+      <Filter>標頭檔\SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
