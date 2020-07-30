@@ -219,8 +219,11 @@
     <ClInclude Include="include.h" />
     <ClInclude Include="inlineHook.h" />
     <ClInclude Include="IPanel.h" />
+    <ClInclude Include="IRenderView.h" />
+    <ClInclude Include="IVModelInfo.h" />
     <ClInclude Include="ivmodelrender.h" />
     <ClInclude Include="Matrix3x4_t.h" />
+    <ClInclude Include="Misc.h" />
     <ClInclude Include="NetVarManagement.h" />
     <ClInclude Include="SetupHack.h" />
     <ClInclude Include="TargetLine.h" />

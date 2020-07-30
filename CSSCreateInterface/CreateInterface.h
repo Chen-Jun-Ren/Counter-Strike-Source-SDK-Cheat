@@ -3,6 +3,10 @@
 #include "IClientEntityList.h"
 #include "cdll_int.h"
 #include "IPanel.h"
+#include "ivmodelrender.h"
+#include "IVModelInfo.h"
+#include "IRenderView.h"
+#include "IVModelInfo.h"
 typedef void* (__cdecl* tCreateInterface)(const char* name, int* pReturnCode);
 extern tCreateInterface CreateInterface;
 
@@ -16,6 +20,9 @@ public:
 	IVEngineClient* VEngineClient = nullptr;
 	IServerGameDLL* ServerGameDLL = nullptr;
 	IPanel* Panel = nullptr;
+	IVModelRender* ModelRender = nullptr;
+	IVRenderView* RenderView = nullptr;
+	IVModelInfo* ModelInfo = nullptr;
 };
 
 extern CInterface* Interface;

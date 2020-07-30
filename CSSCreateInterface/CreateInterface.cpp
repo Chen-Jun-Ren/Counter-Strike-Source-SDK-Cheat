@@ -21,6 +21,9 @@ CInterface::CInterface()
 	BaseClientDLL = GetInterface<IBaseClientDLL>("client.dll", "VClient017");
 	VEngineClient = GetInterface<IVEngineClient>("engine.dll", "VEngineClient013");
 	ServerGameDLL = GetInterface<IServerGameDLL>("server.dll","ServerGameDLL010");
+	ModelRender = GetInterface<IVModelRender>("engine.dll", "VEngineModel016");
+	RenderView = GetInterface<IVRenderView>("engine.dll", "VEngineRenderView014");
+	ModelInfo = GetInterface<IVModelInfo>("engine.dll", "VModelInfoClient006");
 }
 
 // global declarations

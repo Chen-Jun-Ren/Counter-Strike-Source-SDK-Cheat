@@ -20,6 +20,9 @@ DWORD WINAPI GameHackThread(HMODULE hModule)
 	SetupHack::Setup();//設定初始值
 
 	std::cout << "pDevice: 0x" << *(DWORD**)Offset::d3d9Device << std::endl;
+	std::cout << "IVEngineModel016 Obj Address:	0x" << std::hex << Interface->ModelRender << std::endl;
+	std::cout << "VEngineRenderView014 Obj Address:	0x" << std::hex << Interface->RenderView << std::endl;
+	std::cout << "VModelInfoClient006 Obj Address:	0x" << std::hex << Interface->ModelInfo << std::endl;
 
 	while (!GetAsyncKeyState(VK_END))
 	{

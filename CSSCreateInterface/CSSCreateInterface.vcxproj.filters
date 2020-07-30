@@ -227,5 +227,14 @@
     <ClInclude Include="top.h">
       <Filter>標頭檔\SDK</Filter>
     </ClInclude>
+    <ClInclude Include="IVModelInfo.h">
+      <Filter>標頭檔\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderView.h">
+      <Filter>標頭檔\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>標頭檔\SDK</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
