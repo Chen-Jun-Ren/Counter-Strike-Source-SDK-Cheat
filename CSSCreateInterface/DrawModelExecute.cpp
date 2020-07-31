@@ -8,10 +8,13 @@ const float* pColor;
 float W_Color = 255.0f;
 float BK_Color = 0;
 
-void __stdcall Hooks::HookDrawModelExecute(const ModelRenderInfo_t & state, const ModelRenderInfo_t& pInfo, matrix3x4_t* pCustomBoneToWorld)
+void __stdcall Hooks::HookDrawModelExecute(/*const ModelRenderInfo_t &*/void* state, /*const ModelRenderInfo_t&*/void* pInfo, /*matrix3x4_t**/void* pCustomBoneToWorld)
 {
+	HOOK::DrawModle->UnHook();
+	std::cout << HOOK::DrawModle->GetFuncAddress(19) << std::endl;
+	HOOK::DrawModle->ReHook();
 	//oDrawModelExecute = (DrawModelExecuteFn)HOOK::DrawModle->GetFuncAddress(19);
-	//oDrawModelExecute((const ModelRenderInfo_t&)state,(const ModelRenderInfo_t&) pInfo,(matrix3x4_t *) pCustomBoneToWorld);
+	//oDrawModelExecute(state, pInfo, pCustomBoneToWorld);
 	//HOOK::DrawModle->UnHook();
 	//if (pInfo.pModel)
 	//{

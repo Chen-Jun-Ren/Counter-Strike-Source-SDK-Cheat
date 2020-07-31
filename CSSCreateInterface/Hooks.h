@@ -14,7 +14,7 @@ extern SetCursorPosFn oSetCursorPos;
 typedef void(__thiscall* PaintTraverseFn)(void*, unsigned int, bool, bool);
 extern PaintTraverseFn oPaintTraverse;
 
-typedef void(__stdcall* DrawModelExecuteFn)(const ModelRenderInfo_t& state, const ModelRenderInfo_t& pInfo, matrix3x4_t* pCustomBoneToWorld);
+typedef void(__stdcall* DrawModelExecuteFn)(/*const ModelRenderInfo_t&*/void* state, /*const ModelRenderInfo_t&*/void* pInfo, /*matrix3x4_t**/void* pCustomBoneToWorld);
 extern DrawModelExecuteFn oDrawModelExecute;
 
 namespace Hooks
@@ -22,5 +22,5 @@ namespace Hooks
 	extern void __stdcall EndScene(IDirect3DDevice9* pDevice);
 	extern BOOL WINAPI HookSetCursorPos(int X,int Y);
 	extern void __stdcall HookPaintTraverse(int VGUIPanel, bool ForceRepaint, bool AllowForce);
-	extern void __stdcall HookDrawModelExecute(const ModelRenderInfo_t& state, const ModelRenderInfo_t& pInfo, matrix3x4_t* pCustomBoneToWorld);
+	extern void __stdcall HookDrawModelExecute(/*const ModelRenderInfo_t&*/void* state, /*const ModelRenderInfo_t&*/void* pInfo, /*matrix3x4_t**/void* pCustomBoneToWorld);
 }
