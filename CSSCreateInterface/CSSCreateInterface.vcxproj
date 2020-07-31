@@ -100,6 +100,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -171,6 +172,7 @@
     <ClCompile Include="ClassIdManager.cpp" />
     <ClCompile Include="CreateInterface.cpp" />
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="DrawModelExecute.cpp" />
     <ClCompile Include="EndScene.cpp" />
     <ClCompile Include="EspBox.cpp" />
     <ClCompile Include="EspInformation.cpp" />
@@ -208,6 +210,7 @@
     <ClInclude Include="IClientThinkable.h" />
     <ClInclude Include="IClientUnknown.h" />
     <ClInclude Include="IHandleEntity.h" />
+    <ClInclude Include="IMaterial.h" />
     <ClInclude Include="ImGui\imconfig.h" />
     <ClInclude Include="ImGui\imgui.h" />
     <ClInclude Include="ImGui\imgui_impl_dx9.h" />

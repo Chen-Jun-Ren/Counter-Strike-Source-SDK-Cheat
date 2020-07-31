@@ -79,6 +79,9 @@ void SetupHack::SetupHook()
 
 	HOOK::Panel = new VMTHook((uintptr_t**)Interface->Panel);
 	oPaintTraverse = (PaintTraverseFn)HOOK::Panel->HookFunction((DWORD)Hooks::HookPaintTraverse, 41);
+
+	HOOK::DrawModle = new VMTHook((uintptr_t**)Interface->ModelRender);
+	oDrawModelExecute = (DrawModelExecuteFn)HOOK::DrawModle->HookFunction((DWORD)Hooks::HookDrawModelExecute, 19);
 }
 
 //設定特徵碼初始值

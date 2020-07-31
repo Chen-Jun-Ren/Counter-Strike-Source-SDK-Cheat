@@ -108,6 +108,9 @@
     <ClCompile Include="PaintTraverse.cpp">
       <Filter>來源檔案\Hook</Filter>
     </ClCompile>
+    <ClCompile Include="DrawModelExecute.cpp">
+      <Filter>來源檔案\Hook</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="VMTHook.h">
@@ -234,6 +237,9 @@
       <Filter>標頭檔\SDK</Filter>
     </ClInclude>
     <ClInclude Include="Misc.h">
+      <Filter>標頭檔\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IMaterial.h">
       <Filter>標頭檔\SDK</Filter>
     </ClInclude>
   </ItemGroup>

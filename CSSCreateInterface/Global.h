@@ -15,6 +15,7 @@ namespace HOOK // Global Hooks
 {
 	extern VMTHook* D3D9;
 	extern VMTHook* Panel;
+	extern VMTHook* DrawModle;
 }
 
 namespace Offset

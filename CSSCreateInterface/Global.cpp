@@ -5,6 +5,7 @@ std::recursive_mutex MutexLock::gMutex;
 
 VMTHook* HOOK::D3D9;
 VMTHook* HOOK::Panel;
+VMTHook* HOOK::DrawModle;
 
 
 uintptr_t Offset::d3d9Device;
